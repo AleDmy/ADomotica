@@ -1,0 +1,39 @@
+@charset "UTF-8";
+.side {
+  grid-area: side;
+}
+
+.sideNav {
+  grid-area: side;
+  list-style: none;
+  height: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: RGB(148, 159, 224);
+  /* Estilo para navegador lateral */
+  background-color: #e8e9f0;
+}
+
+.sideNav a {
+  /* Estilo para links del navegador lateral */
+  font-size: 150%;
+  text-decoration: none;
+  color: RGB(148, 159, 224);
+}
+
+.sideNav a:hover {
+  /* Estilo cuando pasa el cursor encima de los ítems */
+  background-color: #c257e1;
+  color: #e8e9f0;
+}
+
+.sideNav ul {
+  display: none;
+  list-style: none;
+}
+
+.sideNav:hover ul {
+  display: block;
+}
+/*# sourceMappingURL=sidebar.css.map */

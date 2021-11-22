@@ -1,0 +1,27 @@
+.contenedor3 {
+  height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.iconosNav {
+  opacity: 0.4;
+}
+
+.iconosNav:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  opacity: 1;
+}
+
+.iconosNav__imagen {
+  width: 10vw;
+}
+/*# sourceMappingURL=aside.css.map */

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inconsolata', Times, serif ; /* Cambio la fuente del body */
+    font-size: smaller;
+    color:$blanco;
+    background-color: $purpura; /* Le coloco un background oscuro */
+    line-height: 1.5;
+}
+header{
+    grid-area: navi;
+}
+.contenedor1{
+    grid-area: container;
+    background: linear-gradient(to left, $purpura, $violeta, $purpura);
+    img{
+            width: 5vw;
+    }
+    a{
+        font-size: 5vh;
+    }
+}
+.container{
+    h1{
+        font-size: 10vh;
+        font-weight: 900;
+    }
+    h3{
+        font-weight: 900;
+    }
+}
+/* .bodySinHeader{
+    display: grid;
+    gap: 0.1rem;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 5fr 1fr;
+    grid-template-areas:
+    "side main aside"
+    "foot foot foot"
+    ;
+} */

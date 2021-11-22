@@ -1,0 +1,24 @@
+@import "variables";
+@import "body";
+@import "sidebar";
+@import "main";
+@import "main2";
+@import "BEM";
+@import "footer";
+
+.tablaBoot{
+    background-color:$purpura;
+    color: $blanco;
+    font-size: 2vh;
+}
+
+@media only screen and (min-width: 769px) {
+    .side{
+        font-size: 2.5vh;
+    footer{
+        height: 5vh;
+        font-size: 3vh;
+    } 
+}
+}
+

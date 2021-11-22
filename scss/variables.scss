@@ -1,0 +1,12 @@
+$headings:(
+    blanco:rgb(232,233,240),
+    purpura:rgb(48,48,75),
+    lila:rgb(194,87,225),
+    violeta:rgb(148,159,224),
+);
+
+$blanco: map-get($headings, blanco);
+$purpura: map-get($headings, purpura);
+$lila: map-get($headings, lila);
+$violeta: map-get($headings, violeta);
+

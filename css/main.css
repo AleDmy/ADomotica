@@ -1,0 +1,22 @@
+main {
+  grid-area: main;
+}
+
+.carousel-inner img {
+  height: 80vh;
+}
+
+.contactosForm h1 {
+  margin-top: 1vh;
+  text-align: center;
+}
+
+.contactosForm form {
+  width: 90%;
+  font-size: 3vh;
+}
+
+.entradaTexto {
+  margin-left: 20vh;
+}
+/*# sourceMappingURL=main.css.map */

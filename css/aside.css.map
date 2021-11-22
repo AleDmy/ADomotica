@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAA;EACR,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,YAAY;EAC7B,WAAW,EAAE,MAAM;CACtB;;AACD,AAAA,UAAU,CAAA;EACN,OAAO,EAAE,GAAG;CAKf;;AAND,AAEI,UAFM,AAEL,MAAM,CAAA;EACH,SAAS,EAAE,UAAU;EACrB,OAAO,EAAE,CAAC;CACb;;AAEL,AAAA,kBAAkB,CAAA;EACd,KAAK,EAAE,IAAI;CACd",
+    "sources": [
+        "../scss/aside.scss"
+    ],
+    "names": [],
+    "file": "aside.css"
+}

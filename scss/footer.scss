@@ -1,0 +1,50 @@
+footer{                                     /* Estilo del footer */
+    grid-area: foot;
+    margin-top: 10vh;
+    height: 10vh;
+    display: flex;
+    background: linear-gradient(to left, $purpura, $violeta, $purpura);
+    color: rgb(232, 233, 240);
+    justify-content: space-between;
+    align-content: center;
+        a{
+            text-decoration: none;
+            color:rgb(232, 233, 240);
+            font-size: 2.5vh;
+        }
+}
+.contenidoIzquierdoFooter{
+    width: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 2.5vh;
+    text-justify: center;
+
+}
+.rotacion:hover{
+    animation-name: rotation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+@keyframes rotation {
+    0% {
+      transform:rotate(0deg);
+    }
+    100% {
+      transform:rotate(360deg);
+    }
+}
+}
+
+.contenidoCentroFooter{
+    margin-top: 1.5vh;
+    margin-left: -10vw;
+    width: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.icono:hover{
+    transform: scale(1.2);
+}

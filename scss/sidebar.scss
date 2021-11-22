@@ -1,0 +1,27 @@
+.side{
+    grid-area: side;
+}
+.sideNav{
+   grid-area: side;
+   list-style: none;
+   height: auto;
+   width: fit-content;
+   color: RGB(148,159,224);                 /* Estilo para navegador lateral */
+   background-color: rgb(232, 233, 240);
+}
+.sideNav a{                                 /* Estilo para links del navegador lateral */
+    font-size: 150%;
+    text-decoration: none;
+    color: RGB(148,159,224);
+}
+.sideNav a:hover{                           /* Estilo cuando pasa el cursor encima de los ítems */
+    background-color: rgb(194,87,225);
+    color: rgb(232,233,240);
+}
+.sideNav ul{
+    display: none;
+    list-style: none;
+}
+.sideNav:hover ul{
+    display: block;
+}

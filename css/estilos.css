@@ -1,0 +1,311 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inconsolata', Times, serif;
+  /* Cambio la fuente del body */
+  font-size: smaller;
+  color: #e8e9f0;
+  background-color: #30304b;
+  /* Le coloco un background oscuro */
+  line-height: 1.5;
+}
+
+header {
+  grid-area: navi;
+}
+
+.contenedor1 {
+  grid-area: container;
+  background: -webkit-gradient(linear, right top, left top, from(#30304b), color-stop(#949fe0), to(#30304b));
+  background: linear-gradient(to left, #30304b, #949fe0, #30304b);
+}
+
+.contenedor1 img {
+  width: 5vw;
+}
+
+.contenedor1 a {
+  font-size: 5vh;
+}
+
+.container h1 {
+  font-size: 10vh;
+  font-weight: 900;
+}
+
+.container h3 {
+  font-weight: 900;
+}
+
+/* .bodySinHeader{
+    display: grid;
+    gap: 0.1rem;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 5fr 1fr;
+    grid-template-areas:
+    "side main aside"
+    "foot foot foot"
+    ;
+} */
+.side {
+  grid-area: side;
+}
+
+.sideNav {
+  grid-area: side;
+  list-style: none;
+  height: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: RGB(148, 159, 224);
+  /* Estilo para navegador lateral */
+  background-color: #e8e9f0;
+}
+
+.sideNav a {
+  /* Estilo para links del navegador lateral */
+  font-size: 150%;
+  text-decoration: none;
+  color: RGB(148, 159, 224);
+}
+
+.sideNav a:hover {
+  /* Estilo cuando pasa el cursor encima de los ítems */
+  background-color: #c257e1;
+  color: #e8e9f0;
+}
+
+.sideNav ul {
+  display: none;
+  list-style: none;
+}
+
+.sideNav:hover ul {
+  display: block;
+}
+
+main {
+  grid-area: main;
+}
+
+.carousel-inner img {
+  height: 80vh;
+}
+
+.contactosForm h1 {
+  margin-top: 1vh;
+  text-align: center;
+}
+
+.contactosForm form {
+  width: 90%;
+  font-size: 3vh;
+}
+
+.entradaTexto {
+  margin-left: 20vh;
+}
+
+.contenedor3 {
+  height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.iconosNav {
+  opacity: 0.4;
+}
+
+.iconosNav:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  opacity: 1;
+}
+
+.iconosNav__imagen {
+  width: 10vw;
+}
+
+.contenedor2 {
+  width: 95%;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.BEM {
+  height: 60 vh;
+  width: 100%;
+  margin-top: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.BEM__img {
+  padding: 1rem;
+  height: 50vh;
+  width: 70vh;
+  margin-left: 5vh;
+  margin-right: 5vh;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.BEM__contenedorTexto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.BEM__encabezado {
+  width: 100%;
+  height: 10vh;
+  font-size: 7vh;
+  text-align: center;
+  text-justify: center;
+}
+
+.BEM__parrafo {
+  height: 10vh;
+  margin-top: 2%;
+  font-size: 3vh;
+  list-style: none;
+  text-align: center;
+}
+
+footer {
+  /* Estilo del footer */
+  grid-area: foot;
+  margin-top: 10vh;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: -webkit-gradient(linear, right top, left top, from(#30304b), color-stop(#949fe0), to(#30304b));
+  background: linear-gradient(to left, #30304b, #949fe0, #30304b);
+  color: #e8e9f0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #e8e9f0;
+  font-size: 2.5vh;
+}
+
+.contenidoIzquierdoFooter {
+  width: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2.5vh;
+  text-justify: center;
+}
+
+.rotacion:hover {
+  -webkit-animation-name: rotation;
+          animation-name: rotation;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotation {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotation {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.contenidoCentroFooter {
+  margin-top: 1.5vh;
+  margin-left: -10vw;
+  width: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.icono:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.tablaBoot {
+  background-color: #30304b;
+  color: #e8e9f0;
+  font-size: 2vh;
+}
+
+@media only screen and (min-width: 769px) {
+  .side {
+    font-size: 2.5vh;
+  }
+  .side footer {
+    height: 5vh;
+    font-size: 3vh;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */

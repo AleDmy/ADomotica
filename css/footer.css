@@ -1,0 +1,18 @@
+footer {
+  /* Estilo del footer */
+  grid-area: foot;
+  margin-top: 10vh;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: -webkit-gradient(linear, right top, left top, from(#30304b), color-stop(#e8e9f0), to(#30304b));
+  background: linear-gradient(to left, #30304b, #e8e9f0, #30304b);
+  color: #e8e9f0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+/*# sourceMappingURL=footer.css.map */
